@@ -1,5 +1,14 @@
 # Multithreading-Flight-Reservation-Simulation
 Multithreading and Synchronization exercise
+## Developer Environment
+```bash
+g++  main.cpp Process.cpp ReadyQueue.cpp 
+./a.out
+```
+The scheduler simulation is working with provided files such as definition.txt
+and code files. This provided files must be provided at the same directory with 
+main.cpp. Code files' names must be in this form "codex" such that x is the integer.
+Processes must be given in "definition.txt". 
 ## Introduction
 In this project, I have implemented a simple flight reservation system. This program runs as multi-threaded by taking the synchronization issues into consideration. The scenario of the flight reservation system is that the clients arrive for seat reservation, and the program reserves the seats for them. The requirements, operations, and flow of the program are as follows:
 
